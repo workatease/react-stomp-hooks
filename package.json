@@ -60,6 +60,7 @@
     "sockjs-client": "^1.6.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ]
 }
