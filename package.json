@@ -1,10 +1,10 @@
 {
-  "name": "react-stomp-hooks",
-  "version": "2.1.0",
+  "name": "@workatease/react-stomp-hooks",
+  "version": "2.1.1",
   "description": "A react library to interact with a stomp connection via hooks",
   "author": "fallobst22",
   "license": "MIT",
-  "repository": "fallobst22/react-stomp-hooks",
+  "repository": "workatease/react-stomp-hooks",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
