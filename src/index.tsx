@@ -6,12 +6,20 @@ import withSubscription from './hoc/withSubscription';
 import * as mock from './mock/index';
 import {
   IFrame,
+  wsErrorCallbackType,
   IMessage,
   IPublishParams,
+  RawHeaderType,
   IRawFrameType,
   IStompSocket,
   IStompSocketMessageEvent,
-  ITransaction
+  ITransaction,
+  StompSocketState,
+  ActivationState,
+  closeEventCallbackType,
+  frameCallbackType,
+  messageCallbackType,
+  debugFnType
 } from '@stomp/stompjs';
 
 export {
@@ -30,5 +38,13 @@ export type {
   IRawFrameType,
   IStompSocket,
   IStompSocketMessageEvent,
-  ITransaction
+  ITransaction,
+  StompSocketState,
+  ActivationState,
+  wsErrorCallbackType,
+  RawHeaderType,
+  closeEventCallbackType,
+  frameCallbackType,
+  messageCallbackType,
+  debugFnType
 };

@@ -1,8 +1,8 @@
 {
   "name": "@workatease/react-stomp-hooks",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A react library to interact with a stomp connection via hooks",
-  "author": "fallobst22",
+  "author": "workatease",
   "license": "MIT",
   "repository": "workatease/react-stomp-hooks",
   "main": "dist/index.js",
